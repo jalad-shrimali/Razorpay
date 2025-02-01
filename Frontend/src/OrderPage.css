@@ -1,0 +1,131 @@
+/* Main container for the Order page */
+.order-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fa;
+  padding: 20px;
+}
+
+/* Styling the main order box */
+.order-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.order-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.order-button {
+  background-color: #3399cc;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.order-button:hover {
+  background-color: #287a99;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.order-summary-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.order-summary p {
+  font-size: 1rem;
+  color: #555;
+  text-align: left;
+  margin: 10px 0;
+}
+
+/* Styling the payment button */
+.pay-button {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.pay-button:hover {
+  background-color: #218838;
+}
+
+.pay-button:focus {
+  outline: none;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.product-image {
+  width: fit-content;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-image img {
+  width: 350px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-details {
+  padding: 5px 20px;
+  text-align: left;
+}
+
+.product-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
